@@ -5,6 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box1 {
+            /* 
+                内容区（content）：元素中的所有的子元素和文本内容都在内容区中排列
+                    内容区的大小由width和height两个属性来设置
+                        width 内容区的宽度
+                        height内容区的高度
+            */
+            width: 200px;
+            height: 200px;
+            background-color: #bfa;
+
+            /* 
+                边框（border），边框属于盒子的边缘，边框里面属于盒子内部，出了边框都是盒子的外部
+                    边框的大小会影响到整个盒子的大小
+                要设置边框，需要至少设置三个样式
+                    边框的宽度 border-width
+                    边框的颜色 border-color
+                    边框的样式 border-style
+            */
+            border-width: 10px;
+            border-color: red;
+            border-style: solid;
+
+            padding;
+        }
+    </style>
 </head>
 <body>
 
@@ -20,7 +47,7 @@
 
      -->
 
-     <div>div1</div>
+     <div class="box1"><span>aaa</span></div>
     
 </body>
 </html>
